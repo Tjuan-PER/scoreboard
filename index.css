@@ -1,0 +1,79 @@
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url(font/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+.container div{
+    text-align: center;
+}
+
+.board {
+    background: #080001;
+    width: 150px;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    border-radius: 5px;
+
+    text-align: right;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 70px;
+    color: #F94F6D;
+}
+
+.board-small {
+    width: 50px;
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+button {
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+    padding: 5px 7px;
+    margin: 5px 7px 7px 0;
+    color: #9AABD8;
+    font-family: CursedTimerUlil-Aznm;
+}
+
+.control-panel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.control-teams {
+    display: flex;
+    justify-content: center;
+}
+
+.control-team {
+    margin: 5px 75px;
+}
+
+.control--buttons {
+    display: flex;
+    justify-content: left;
+}
+
+#period-div {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+}
